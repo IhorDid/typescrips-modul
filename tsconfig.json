@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // версія JS
+    "useDefineForClassFields": true,
+    "module": "ESNext", // сучасні методи програмування
+    "lib": ["ES2020", "DOM", "DOM.Iterable"], // взаєсмодія з браузером
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
